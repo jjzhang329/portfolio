@@ -85,7 +85,7 @@ nav ul li a {
 p {
   margin: 25px 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 18px;
   color: #999999;
   line-height: 28px;
 }
@@ -207,7 +207,7 @@ nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
   display: block;
-  font-size: 15px;
+  font-size: 18px;
   color: #999999;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
@@ -266,7 +266,7 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -330,15 +330,21 @@ nav ul li a {
 .resume-div{
   height: 40px;
   border: 2px solid white;
-  width: 200px;
+  width: 150px;
   margin-top: 40px;
   border-radius: 8px;
   background: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-
+.resume > a{
+  color: white;
+}
 .resume-div :hover{
   cursor: pointer;
-  color: steelblue;
+  background-color: steelblue;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -430,7 +436,6 @@ nav ul li a {
 #portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
-  font-size: 14px;
   color: #999999;
   line-height: 16px;
   cursor: pointer;
